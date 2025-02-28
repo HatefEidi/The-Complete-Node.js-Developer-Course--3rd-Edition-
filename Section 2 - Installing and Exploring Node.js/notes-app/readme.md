@@ -1,0 +1,5 @@
+When we download a project from github, or download a project from a zip file, we don't see node_modules, because this is something that is created by the package manager. So, we need to install the dependencies first. We can do this by running the following command in the terminal:
+npm install
+After running this command, npm will take a look at the package.json file in the root directory of the project and install all the dependencies listed there. This will create node_modules directory in the root directory of the project, which contains all the dependencies that were installed by npm.Once the installation is complete, we can run the project by running the following command in the terminal:
+node app.js
+This will start the server and you can access the application by going to http://localhost:3000 in your web browser. You can also run the tests by running the following command in the terminal:
